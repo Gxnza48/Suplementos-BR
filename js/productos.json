@@ -1,7 +1,7 @@
 [
     {
         "id": "abrigo-01",
-        "titulo": "Lax",
+        "titulo": " Creatina | Lax",
         "imagen": "./img/abrigos/01.jpg",
         "categoria": {
             "nombre": "Creatinas",
@@ -11,7 +11,7 @@
     },
     {
         "id": "abrigo-02",
-        "titulo": "Ena",
+        "titulo": " Creatina | Ena",
         "imagen": "./img/abrigos/02.jpg",
         "categoria": {
             "nombre": "Abrigos",
@@ -21,7 +21,7 @@
     },
     {
         "id": "abrigo-03",
-        "titulo": "STAR",
+        "titulo": "Creatina | STAR",
         "imagen": "./img/abrigos/03.jpg",
         "categoria": {
             "nombre": "Abrigos",
@@ -32,7 +32,7 @@
     },
     {
         "id": "abrigo-03",
-        "titulo": "Gold",
+        "titulo": "Creatina | Gold",
         "imagen": "./img/abrigos/04.jpg",
         "categoria": {
             "nombre": "Abrigos",
@@ -43,7 +43,7 @@
     },
     {
         "id": "camiseta-01",
-        "titulo": "Star",
+        "titulo": "Proteina | STAR",
         "imagen": "./img/camisetas/01.jpg",
         "categoria": {
             "nombre": "Proteinas",
@@ -53,7 +53,7 @@
     },
     {
         "id": "camiseta-02",
-        "titulo": "Ena Tru Made 5lbs",
+        "titulo": "Proteina | Ena Tru Made 5lbs",
         "imagen": "./img/camisetas/02.jpg",
         "categoria": {
             "nombre": "Camisetas",
@@ -63,7 +63,7 @@
     },
     {
         "id": "camiseta-03",
-        "titulo": "Ena Tru Made 2lbs",
+        "titulo": "Proteina | Ena Tru Made 2lbs",
         "imagen": "./img/camisetas/02.jpg",
         "categoria": {
             "nombre": "Camisetas",
@@ -73,7 +73,7 @@
     },
     {
         "id": "camiseta-04",
-        "titulo": "Whey X-Pro",
+        "titulo": "Proteina | Whey X-Pro",
         "imagen": "./img/camisetas/03.jpg",
         "categoria": {
             "nombre": "Camisetas",
@@ -103,7 +103,7 @@
     },
     {
         "id": "pantalon-01",
-        "titulo": "3D",
+        "titulo": "Pre entreno | 3D",
         "imagen": "./img/pantalones/01.jpg",
         "categoria": {
             "nombre": "Pre Entrenos",
@@ -113,7 +113,7 @@
     },
     {
         "id": "pantalon-02",
-        "titulo": "TNT",
+        "titulo": "Pre entreno | TNT",
         "imagen": "./img/pantalones/02.jpg",
         "categoria": {
             "nombre": "Pantalones",

@@ -54,7 +54,14 @@ aside {
 .logo {
     font-weight: bold;
     font-size: 1.1rem;
-    color: #424242;
+    color: black;
+    padding: 5px;
+    border-radius: 25px 0px 25px 0px;
+    border: solid 2px black;
+    box-shadow: 5px 5px black;
+    margin-right: 20px;
+    text-align: center;
+    
     
 }
 
@@ -189,6 +196,11 @@ main {
     cursor: pointer;
     border: 2px solid var(--clr-white);
     transition: background-color .2s, color .2s;
+}
+
+.producto-precio {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .producto-agregar:hover {
