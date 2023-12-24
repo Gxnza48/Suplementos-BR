@@ -117,52 +117,62 @@ function actualizarTotal() {
 }
 
 function comprarCarrito() {
-    // Construir el mensaje del carrito
-    let mensajePedido = "Hola, este es mi pedido:\n\n";
+  // Construir el mensaje del carrito
+  let mensajePedido = "Hola, este es mi pedido:\n\n";
 
-    productosEnCarrito.forEach((productoEnCarrito) => {
-        mensajePedido += `${productoEnCarrito.titulo} - Cantidad: ${productoEnCarrito.cantidad} - Precio: $${productoEnCarrito.precio * productoEnCarrito.cantidad}\n`;
-    });
+  productosEnCarrito.forEach((productoEnCarrito) => {
+    mensajePedido += `${productoEnCarrito.titulo} - Cantidad: ${
+      productoEnCarrito.cantidad
+    } - Precio: $${productoEnCarrito.precio * productoEnCarrito.cantidad}\n`;
+  });
 
-    // Calcular el total
-    const totalCalculado = productosEnCarrito.reduce((acc, producto) => acc + (producto.precio * producto.cantidad), 0);
-    mensajePedido += `\nTotal: $${totalCalculado}\n`;
+  // Calcular el total
+  const totalCalculado = productosEnCarrito.reduce(
+    (acc, producto) => acc + producto.precio * producto.cantidad,
+    0
+  );
+  mensajePedido += `\nTotal: $${totalCalculado}\n`;
 
-    // Completar con el número de WhatsApp
-    const numeroWhatsApp = '5493416565615';
+  // Completar con el número de WhatsApp
+  const numeroWhatsApp = "5493416565615";
 
-    // Abrir la ventana de chat de WhatsApp con el mensaje del carrito
-    const urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensajePedido)}`;
-    window.open(urlWhatsApp, '_blank');
+  // Abrir la ventana de chat de WhatsApp con el mensaje del carrito
+  const urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(
+    mensajePedido
+  )}`;
+  window.open(urlWhatsApp, "_blank");
 
-    // Resto de la lógica de la función comprarCarrito
-    productosEnCarrito.length = 0;
-    localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
+  // Resto de la lógica de la función comprarCarrito
+  productosEnCarrito.length = 0;
+  localStorage.setItem(
+    "productos-en-carrito",
+    JSON.stringify(productosEnCarrito)
+  );
 
-    contenedorCarritoVacio.classList.add("disabled");
-    contenedorCarritoProductos.classList.add("disabled");
-    contenedorCarritoAcciones.classList.add("disabled");
-    contenedorCarritoComprado.classList.remove("disabled");
+  contenedorCarritoVacio.classList.add("disabled");
+  contenedorCarritoProductos.classList.add("disabled");
+  contenedorCarritoAcciones.classList.add("disabled");
+  contenedorCarritoComprado.classList.remove("disabled");
 
-    // Mensaje de éxito
-    Toastify({
-        text: "¡Pedido enviado por WhatsApp!",
-        duration: 3000,
-        close: true,
-        gravity: "top",
-        position: "right",
-        stopOnFocus: true,
-        style: {
-            background: "linear-gradient(to right, #5cb85c, #5cb85c)",
-            borderRadius: "2rem",
-            textTransform: "uppercase",
-            fontSize: ".75rem"
-        },
-        offset: {
-            x: '1.5rem',
-            y: '1.5rem'
-        }
-    }).showToast();
+  // Mensaje de éxito
+  Toastify({
+    text: "¡Pedido enviado por WhatsApp!",
+    duration: 3000,
+    close: true,
+    gravity: "top",
+    position: "right",
+    stopOnFocus: true,
+    style: {
+      background: "linear-gradient(to right, #5cb85c, #5cb85c)",
+      borderRadius: "2rem",
+      textTransform: "uppercase",
+      fontSize: ".75rem",
+    },
+    offset: {
+      x: "1.5rem",
+      y: "1.5rem",
+    },
+  }).showToast();
 }
 
 // Event listeners
