@@ -1,0 +1,135 @@
+[
+    {
+        "id": "abrigo-01",
+        "titulo": " Creatina | Lax",
+        "imagen": "./img/abrigos/01.jpg",
+        "categoria": {
+            "nombre": "Creatinas",
+            "id": "abrigos"
+        },
+        "precio": 20000
+    },
+    {
+        "id": "abrigo-02",
+        "titulo": " Creatina | Ena",
+        "imagen": "./img/abrigos/02.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 25500
+    },
+    {
+        "id": "abrigo-03",
+        "titulo": "Creatina | STAR",
+        "imagen": "./img/abrigos/03.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 23500
+
+    },
+    {
+        "id": "abrigo-03",
+        "titulo": "Creatina | Gold",
+        "imagen": "./img/abrigos/04.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 22700
+
+    },
+    {
+        "id": "camiseta-01",
+        "titulo": "Proteina | STAR",
+        "imagen": "./img/camisetas/01.jpg",
+        "categoria": {
+            "nombre": "Proteinas",
+            "id": "camisetas"
+        },
+        "precio": 22800
+    },
+    {
+        "id": "camiseta-02",
+        "titulo": "Proteina | Ena Tru Made 5lbs",
+        "imagen": "./img/camisetas/02.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 47900
+    },
+    {
+        "id": "camiseta-03",
+        "titulo": "Proteina | Ena Tru Made 2lbs",
+        "imagen": "./img/camisetas/02.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 23000
+    },
+    {
+        "id": "camiseta-04",
+        "titulo": "Proteina | Whey X-Pro",
+        "imagen": "./img/camisetas/03.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 29000
+    },
+    {
+        "id": "camiseta-05",
+        "titulo": "Caja Gentech X20",
+        "imagen": "./img/camisetas/04.png",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 11000
+    },
+    {
+        "id": "camiseta-06",
+        "titulo": "Muttant Masss",
+        "imagen": "./img/camisetas/05.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 19000
+    },
+    {
+        "id": "pantalon-01",
+        "titulo": "Pre entreno | 3D",
+        "imagen": "./img/pantalones/01.jpg",
+        "categoria": {
+            "nombre": "Pre Entrenos",
+            "id": "pantalones"
+        },
+        "precio": 23500
+    },
+    {
+        "id": "pantalon-02",
+        "titulo": "Pre entreno | TNT",
+        "imagen": "./img/pantalones/02.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 15800
+    },
+    {
+        "id": "pantalon-03",
+        "titulo": "Shaker",
+        "imagen": "./img/pantalones/03.png",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 2700
+
+    }
+]
